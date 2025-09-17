@@ -1,7 +1,7 @@
 import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-const Navbar = () => {
+const Navbar = ({ sidebar, setSidebar }) => {
   return (
     <nav className="absolute top-0 left-0 w-full pt-10 text-white z-20">
       <div className="  ">
@@ -11,7 +11,11 @@ const Navbar = () => {
             COdes <span className="text-orange-300">Coffee</span>
           </h1>
           {/* ham menu section*/}
-          <div>
+          <div
+            onClick={() => {
+              setSidebar(!sidebar);
+            }}
+          >
             <GiHamburgerMenu className="text-3xl cursor-pointer" />
           </div>
         </div>
