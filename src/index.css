@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 @layer base {
+  .container {
+    padding: 10px 30px;
+  }
   .img-shadow {
     filter: drop-shadow(40px 50px 25px #0f1115);
   }
