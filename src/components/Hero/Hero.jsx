@@ -11,7 +11,7 @@ const heroBGStyle = {
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   height: "100vh",
-  width: "100vw",
+  width: "100%",
 };
 
 const Hero = () => {
@@ -23,7 +23,7 @@ const Hero = () => {
           {/* navbar section */}
           <Navbar setSidebar={setSidebar} sidebar={sidebar} />
           {/* hero section */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center min-h-[850px] ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center min-h-[850px]">
             {/* text content section */}
             <div className="text-orange-600 mt-[100px] md:mt-0 p-4 space-y-28">
               <motion.h1
