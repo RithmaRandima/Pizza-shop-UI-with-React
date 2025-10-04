@@ -34,7 +34,6 @@ const AppBanner = () => {
           />
         </div>
       </div>
-      AppBanner
     </div>
   );
 };
