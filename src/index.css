@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+@layer utilities {
+  .input-style {
+    @apply px-4 py-2 border-[1px] border-gray-400 focus:border-red-400 rounded-md outline-none;
+  }
+  .primary-btn {
+    @apply bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 duration-200;
+  }
+}
+
 @layer base {
   .container {
     padding: 10px 30px;

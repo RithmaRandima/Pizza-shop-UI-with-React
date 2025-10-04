@@ -6,7 +6,7 @@ const ServiceCard = ({ title, subtitle, image }) => {
       <img
         src={image}
         alt=""
-        className=".img-shadow max-w-[200px] mx-auto hover:scale-110 duration-300"
+        className=".img-shadow max-w-[200px] mx-auto hover:scale-105 duration-300"
       />
       <div className="space-y-2">
         <h1 className="text-2xl font-bold text-orange-400">{title}</h1>
